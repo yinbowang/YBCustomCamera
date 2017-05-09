@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115B4A481EC0139300AE213B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4A471EC0139300AE213B /* main.m */; };
+		115B4A4B1EC0139300AE213B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4A4A1EC0139300AE213B /* AppDelegate.m */; };
+		115B4A4E1EC0139300AE213B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4A4D1EC0139300AE213B /* ViewController.m */; };
+		115B4A511EC0139300AE213B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115B4A4F1EC0139300AE213B /* Main.storyboard */; };
+		115B4A531EC0139300AE213B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115B4A521EC0139300AE213B /* Assets.xcassets */; };
+		115B4A561EC0139300AE213B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115B4A541EC0139300AE213B /* LaunchScreen.storyboard */; };
+		115B4A611EC0139300AE213B /* YBCustomCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4A601EC0139300AE213B /* YBCustomCameraTests.m */; };
+		115B4A6C1EC0139300AE213B /* YBCustomCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4A6B1EC0139300AE213B /* YBCustomCameraUITests.m */; };
+		115B4A7B1EC013C300AE213B /* YBCustomCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 115B4A7A1EC013C300AE213B /* YBCustomCameraVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115B4A5D1EC0139300AE213B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115B4A3B1EC0139300AE213B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115B4A421EC0139300AE213B;
+			remoteInfo = YBCustomCamera;
+		};
+		115B4A681EC0139300AE213B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115B4A3B1EC0139300AE213B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115B4A421EC0139300AE213B;
+			remoteInfo = YBCustomCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		115B4A431EC0139300AE213B /* YBCustomCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBCustomCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115B4A471EC0139300AE213B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		115B4A491EC0139300AE213B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		115B4A4A1EC0139300AE213B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		115B4A4C1EC0139300AE213B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		115B4A4D1EC0139300AE213B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		115B4A501EC0139300AE213B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		115B4A521EC0139300AE213B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		115B4A551EC0139300AE213B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		115B4A571EC0139300AE213B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115B4A5C1EC0139300AE213B /* YBCustomCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBCustomCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115B4A601EC0139300AE213B /* YBCustomCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBCustomCameraTests.m; sourceTree = "<group>"; };
+		115B4A621EC0139300AE213B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115B4A671EC0139300AE213B /* YBCustomCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBCustomCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115B4A6B1EC0139300AE213B /* YBCustomCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBCustomCameraUITests.m; sourceTree = "<group>"; };
+		115B4A6D1EC0139300AE213B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115B4A791EC013C300AE213B /* YBCustomCameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCustomCameraVC.h; sourceTree = "<group>"; };
+		115B4A7A1EC013C300AE213B /* YBCustomCameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCustomCameraVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115B4A401EC0139300AE213B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115B4A591EC0139300AE213B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115B4A641EC0139300AE213B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115B4A3A1EC0139300AE213B = {
+			isa = PBXGroup;
+			children = (
+				115B4A451EC0139300AE213B /* YBCustomCamera */,
+				115B4A5F1EC0139300AE213B /* YBCustomCameraTests */,
+				115B4A6A1EC0139300AE213B /* YBCustomCameraUITests */,
+				115B4A441EC0139300AE213B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115B4A441EC0139300AE213B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115B4A431EC0139300AE213B /* YBCustomCamera.app */,
+				115B4A5C1EC0139300AE213B /* YBCustomCameraTests.xctest */,
+				115B4A671EC0139300AE213B /* YBCustomCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115B4A451EC0139300AE213B /* YBCustomCamera */ = {
+			isa = PBXGroup;
+			children = (
+				115B4A491EC0139300AE213B /* AppDelegate.h */,
+				115B4A4A1EC0139300AE213B /* AppDelegate.m */,
+				115B4A4C1EC0139300AE213B /* ViewController.h */,
+				115B4A4D1EC0139300AE213B /* ViewController.m */,
+				115B4A791EC013C300AE213B /* YBCustomCameraVC.h */,
+				115B4A7A1EC013C300AE213B /* YBCustomCameraVC.m */,
+				115B4A4F1EC0139300AE213B /* Main.storyboard */,
+				115B4A521EC0139300AE213B /* Assets.xcassets */,
+				115B4A541EC0139300AE213B /* LaunchScreen.storyboard */,
+				115B4A571EC0139300AE213B /* Info.plist */,
+				115B4A461EC0139300AE213B /* Supporting Files */,
+			);
+			path = YBCustomCamera;
+			sourceTree = "<group>";
+		};
+		115B4A461EC0139300AE213B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				115B4A471EC0139300AE213B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		115B4A5F1EC0139300AE213B /* YBCustomCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				115B4A601EC0139300AE213B /* YBCustomCameraTests.m */,
+				115B4A621EC0139300AE213B /* Info.plist */,
+			);
+			path = YBCustomCameraTests;
+			sourceTree = "<group>";
+		};
+		115B4A6A1EC0139300AE213B /* YBCustomCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				115B4A6B1EC0139300AE213B /* YBCustomCameraUITests.m */,
+				115B4A6D1EC0139300AE213B /* Info.plist */,
+			);
+			path = YBCustomCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115B4A421EC0139300AE213B /* YBCustomCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115B4A701EC0139300AE213B /* Build configuration list for PBXNativeTarget "YBCustomCamera" */;
+			buildPhases = (
+				115B4A3F1EC0139300AE213B /* Sources */,
+				115B4A401EC0139300AE213B /* Frameworks */,
+				115B4A411EC0139300AE213B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBCustomCamera;
+			productName = YBCustomCamera;
+			productReference = 115B4A431EC0139300AE213B /* YBCustomCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		115B4A5B1EC0139300AE213B /* YBCustomCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115B4A731EC0139300AE213B /* Build configuration list for PBXNativeTarget "YBCustomCameraTests" */;
+			buildPhases = (
+				115B4A581EC0139300AE213B /* Sources */,
+				115B4A591EC0139300AE213B /* Frameworks */,
+				115B4A5A1EC0139300AE213B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115B4A5E1EC0139300AE213B /* PBXTargetDependency */,
+			);
+			name = YBCustomCameraTests;
+			productName = YBCustomCameraTests;
+			productReference = 115B4A5C1EC0139300AE213B /* YBCustomCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		115B4A661EC0139300AE213B /* YBCustomCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115B4A761EC0139300AE213B /* Build configuration list for PBXNativeTarget "YBCustomCameraUITests" */;
+			buildPhases = (
+				115B4A631EC0139300AE213B /* Sources */,
+				115B4A641EC0139300AE213B /* Frameworks */,
+				115B4A651EC0139300AE213B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115B4A691EC0139300AE213B /* PBXTargetDependency */,
+			);
+			name = YBCustomCameraUITests;
+			productName = YBCustomCameraUITests;
+			productReference = 115B4A671EC0139300AE213B /* YBCustomCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115B4A3B1EC0139300AE213B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "中天易观";
+				TargetAttributes = {
+					115B4A421EC0139300AE213B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6VBE2N88LJ;
+						ProvisioningStyle = Automatic;
+					};
+					115B4A5B1EC0139300AE213B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6VBE2N88LJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 115B4A421EC0139300AE213B;
+					};
+					115B4A661EC0139300AE213B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6VBE2N88LJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 115B4A421EC0139300AE213B;
+					};
+				};
+			};
+			buildConfigurationList = 115B4A3E1EC0139300AE213B /* Build configuration list for PBXProject "YBCustomCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115B4A3A1EC0139300AE213B;
+			productRefGroup = 115B4A441EC0139300AE213B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115B4A421EC0139300AE213B /* YBCustomCamera */,
+				115B4A5B1EC0139300AE213B /* YBCustomCameraTests */,
+				115B4A661EC0139300AE213B /* YBCustomCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115B4A411EC0139300AE213B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115B4A561EC0139300AE213B /* LaunchScreen.storyboard in Resources */,
+				115B4A531EC0139300AE213B /* Assets.xcassets in Resources */,
+				115B4A511EC0139300AE213B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115B4A5A1EC0139300AE213B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115B4A651EC0139300AE213B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115B4A3F1EC0139300AE213B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115B4A4E1EC0139300AE213B /* ViewController.m in Sources */,
+				115B4A7B1EC013C300AE213B /* YBCustomCameraVC.m in Sources */,
+				115B4A4B1EC0139300AE213B /* AppDelegate.m in Sources */,
+				115B4A481EC0139300AE213B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115B4A581EC0139300AE213B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115B4A611EC0139300AE213B /* YBCustomCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115B4A631EC0139300AE213B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115B4A6C1EC0139300AE213B /* YBCustomCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115B4A5E1EC0139300AE213B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115B4A421EC0139300AE213B /* YBCustomCamera */;
+			targetProxy = 115B4A5D1EC0139300AE213B /* PBXContainerItemProxy */;
+		};
+		115B4A691EC0139300AE213B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115B4A421EC0139300AE213B /* YBCustomCamera */;
+			targetProxy = 115B4A681EC0139300AE213B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		115B4A4F1EC0139300AE213B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115B4A501EC0139300AE213B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		115B4A541EC0139300AE213B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115B4A551EC0139300AE213B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115B4A6E1EC0139300AE213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		115B4A6F1EC0139300AE213B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115B4A711EC0139300AE213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBCustomCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBCustomCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		115B4A721EC0139300AE213B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBCustomCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBCustomCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		115B4A741EC0139300AE213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBCustomCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBCustomCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBCustomCamera.app/YBCustomCamera";
+			};
+			name = Debug;
+		};
+		115B4A751EC0139300AE213B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBCustomCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBCustomCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBCustomCamera.app/YBCustomCamera";
+			};
+			name = Release;
+		};
+		115B4A771EC0139300AE213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBCustomCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBCustomCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YBCustomCamera;
+			};
+			name = Debug;
+		};
+		115B4A781EC0139300AE213B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBCustomCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBCustomCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YBCustomCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115B4A3E1EC0139300AE213B /* Build configuration list for PBXProject "YBCustomCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115B4A6E1EC0139300AE213B /* Debug */,
+				115B4A6F1EC0139300AE213B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115B4A701EC0139300AE213B /* Build configuration list for PBXNativeTarget "YBCustomCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115B4A711EC0139300AE213B /* Debug */,
+				115B4A721EC0139300AE213B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		115B4A731EC0139300AE213B /* Build configuration list for PBXNativeTarget "YBCustomCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115B4A741EC0139300AE213B /* Debug */,
+				115B4A751EC0139300AE213B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		115B4A761EC0139300AE213B /* Build configuration list for PBXNativeTarget "YBCustomCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115B4A771EC0139300AE213B /* Debug */,
+				115B4A781EC0139300AE213B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115B4A3B1EC0139300AE213B /* Project object */;
+}
